@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Pomodoro from './Components/Pomodoro';
 
 function App() {
   return (
     <div className="App">
-      
+      <Pomodoro />
     </div>
   );
 }
